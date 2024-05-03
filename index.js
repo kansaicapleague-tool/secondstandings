@@ -56,22 +56,13 @@ function checkClick(){
 
 function downloadClick(){
     var canvas = document.getElementById("canvas");
-    const name = 'firststandings.png';
+    const name = 'secondstandings.png';
     const a = document.createElement('a');
 
     a.href = canvas.toDataURL();
     a.download = name;
     a.click();
 }
-
-// function downloadImage(dataUrl) {
-//     const name = 'secondstandings.png';
-//     const a = document.createElement('a');
-
-//     a.href = dataUrl;
-//     a.download = name;
-//     a.click();
-//   }
   
   let firstTeam = document.getElementById('firstTeam');
   let firstTeamname = document.getElementById('firstTeamname');
