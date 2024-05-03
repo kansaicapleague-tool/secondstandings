@@ -1,0 +1,438 @@
+h1 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+body {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+input[type="number"] {
+    width: 50px;
+  }
+
+.image {/*親div*/
+    position: relative;/*相対配置*/
+}
+    
+.image p#firstTeamname {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 23.4%;
+    left: 14.7%;
+    margin:0;
+    padding:0;
+}
+
+.image p#firstGameText {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 23.4%;
+    right: 39.0%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#firstWin {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 23.4%;
+    right: 31.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#firstLose {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 23.4%;
+    right: 22.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#firstDraw {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 23.4%;
+    right: 13.8%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#firstPoint {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 23.4%;
+    right: 4.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#secondTeamname {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 33.3%;
+    left: 14.7%;
+    margin:0;
+    padding:0;
+}
+
+.image p#secondGameText {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 33.3%;
+    right: 39.0%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#secondWin {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 33.3%;
+    right: 31.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#secondLose {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 33.3%;
+    right: 22.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#secondDraw {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 33.3%;
+    right: 13.8%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#secondPoint {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 33.3%;
+    right: 4.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#thirdTeamname {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 43.5%;
+    left: 14.7%;
+    margin:0;
+    padding:0;
+}
+
+.image p#thirdGameText {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 43.5%;
+    right: 39.0%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#thirdWin {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 43.5%;
+    right: 31.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#thirdLose {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 43.5%;
+    right: 22.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#thirdDraw {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 43.5%;
+    right: 13.8%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#thirdPoint {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 43.5%;
+    right: 4.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#forthTeamname {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 53.4%;
+    left: 14.7%;
+    margin:0;
+    padding:0;
+}
+
+.image p#forthGameText {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 53.4%;
+    right: 39.0%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#forthWin {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 53.4%;
+    right: 31.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#forthLose {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 53.4%;
+    right: 22.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#forthDraw {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 53.4%;
+    right: 13.8%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#forthPoint {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 53.4%;
+    right: 4.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#fifthTeamname {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 63.4%;
+    left: 14.7%;
+    margin:0;
+    padding:0;
+}
+
+.image p#fifthGameText {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 63.4%;
+    right: 39.0%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#fifthWin {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 63.4%;
+    right: 31.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#fifthLose {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 63.4%;
+    right: 22.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#fifthDraw {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 63.4%;
+    right: 13.8%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#fifthPoint {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 63.4%;
+    right: 4.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#sixthTeamname {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 73.5%;
+    left: 14.7%;
+    margin:0;
+    padding:0;
+}
+
+.image p#sixthGameText {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 73.5%;
+    right: 39.0%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#sixthWin {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 73.5%;
+    right: 31.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#sixthLose {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 73.5%;
+    right: 22.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#sixthDraw {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 73.5%;
+    right: 13.8%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#sixthPoint {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 73.5%;
+    right: 4.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#seventhTeamname {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 83.5%;
+    left: 14.7%;
+    margin:0;
+    padding:0;
+}
+
+.image p#seventhGameText {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 83.5%;
+    right: 39.0%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#seventhWin {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 83.5%;
+    right: 31.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#seventhLose {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 83.5%;
+    right: 22.3%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#seventhDraw {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 83.5%;
+    right: 13.8%;
+    margin: 0;
+    padding: 0;
+}
+
+.image p#seventhPoint {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は黒に*/
+    font-size: 4.5vw;
+    top: 83.5%;
+    right: 4.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.image img {
+    width: 100%;
+}
