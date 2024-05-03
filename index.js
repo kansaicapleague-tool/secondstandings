@@ -65,7 +65,7 @@ function downloadClick(){
 }
 
 // function downloadImage(dataUrl) {
-//     const name = 'firststandings.png';
+//     const name = 'secondstandings.png';
 //     const a = document.createElement('a');
 
 //     a.href = dataUrl;
