@@ -437,7 +437,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 2vw;
-    bottom: 1%;
+    bottom: 2%;
     right: 1%;
     margin: 0;
     padding: 0;
