@@ -1,57 +1,60 @@
 function checkClick(){
-    firstTeamname.textContent = firstTeam.value;
-    firstWin.textContent = firstTeamWin.value;
-    firstLose.textContent = firstTeamLose.value;
-    firstDraw.textContent = firstTeamDraw.value;
-    firstGameText.textContent = parseInt(firstTeamWin.value) +  parseInt(firstTeamLose.value) + parseInt(firstTeamDraw.value);
-    firstPoint.textContent = parseInt(firstTeamWin.value)*3.0 + parseInt(firstTeamDraw.value);
-    
-    secondTeamname.textContent = secondTeam.value;
-    secondWin.textContent = secondTeamWin.value;
-    secondLose.textContent = secondTeamLose.value;
-    secondDraw.textContent = secondTeamDraw.value;
-    secondGameText.textContent = parseInt(secondTeamWin.value) +  parseInt(secondTeamLose.value) + parseInt(secondTeamDraw.value);
-    secondPoint.textContent = parseInt(secondTeamWin.value)*3.0 + parseInt(secondTeamDraw.value);
-
-    thirdTeamname.textContent = thirdTeam.value;
-    thirdWin.textContent = thirdTeamWin.value;
-    thirdLose.textContent = thirdTeamLose.value;
-    thirdDraw.textContent = thirdTeamDraw.value;
-    thirdGameText.textContent = parseInt(thirdTeamWin.value) +  parseInt(thirdTeamLose.value) + parseInt(thirdTeamDraw.value);
-    thirdPoint.textContent = parseInt(thirdTeamWin.value)*3.0 + parseInt(thirdTeamDraw.value);
-
-    forthTeamname.textContent = forthTeam.value;
-    forthWin.textContent = forthTeamWin.value;
-    forthLose.textContent = forthTeamLose.value;
-    forthDraw.textContent = forthTeamDraw.value;
-    forthGameText.textContent = parseInt(forthTeamWin.value) +  parseInt(forthTeamLose.value) + parseInt(forthTeamDraw.value);
-    forthPoint.textContent = parseInt(forthTeamWin.value)*3.0 + parseInt(forthTeamDraw.value);
-
-    fifthTeamname.textContent = fifthTeam.value;
-    fifthWin.textContent = fifthTeamWin.value;
-    fifthLose.textContent = fifthTeamLose.value;
-    fifthDraw.textContent = fifthTeamDraw.value;
-    fifthGameText.textContent = parseInt(fifthTeamWin.value) +  parseInt(fifthTeamLose.value) + parseInt(fifthTeamDraw.value);
-    fifthPoint.textContent = parseInt(fifthTeamWin.value)*3.0 + parseInt(fifthTeamDraw.value);
-
-    sixthTeamname.textContent = sixthTeam.value;
-    sixthWin.textContent = sixthTeamWin.value;
-    sixthLose.textContent = sixthTeamLose.value;
-    sixthDraw.textContent = sixthTeamDraw.value;
-    sixthGameText.textContent = parseInt(sixthTeamWin.value) +  parseInt(sixthTeamLose.value) + parseInt(sixthTeamDraw.value);
-    sixthPoint.textContent = parseInt(sixthTeamWin.value)*3.0 + parseInt(sixthTeamDraw.value);
-
-    seventhTeamname.textContent = seventhTeam.value;
-    seventhWin.textContent = seventhTeamWin.value;
-    seventhLose.textContent = seventhTeamLose.value;
-    seventhDraw.textContent = seventhTeamDraw.value;
-    seventhGameText.textContent = parseInt(seventhTeamWin.value) +  parseInt(seventhTeamLose.value) + parseInt(seventhTeamDraw.value);
-    seventhPoint.textContent = parseInt(seventhTeamWin.value)*3.0 + parseInt(seventhTeamDraw.value);
-
     html2canvas(document.getElementById("target")).then(canvas => {
         document.body.appendChild(canvas)
         canvas.id = "canvas"
       });
+}
+
+function changeClick(){
+  firstTeamname.textContent = firstTeam.value;
+  firstWin.textContent = firstTeamWin.value;
+  firstLose.textContent = firstTeamLose.value;
+  firstDraw.textContent = firstTeamDraw.value;
+  firstGameText.textContent = parseInt(firstTeamWin.value) +  parseInt(firstTeamLose.value) + parseInt(firstTeamDraw.value);
+  firstPoint.textContent = parseInt(firstTeamWin.value)*3.0 + parseInt(firstTeamDraw.value);
+  
+  secondTeamname.textContent = secondTeam.value;
+  secondWin.textContent = secondTeamWin.value;
+  secondLose.textContent = secondTeamLose.value;
+  secondDraw.textContent = secondTeamDraw.value;
+  secondGameText.textContent = parseInt(secondTeamWin.value) +  parseInt(secondTeamLose.value) + parseInt(secondTeamDraw.value);
+  secondPoint.textContent = parseInt(secondTeamWin.value)*3.0 + parseInt(secondTeamDraw.value);
+
+  thirdTeamname.textContent = thirdTeam.value;
+  thirdWin.textContent = thirdTeamWin.value;
+  thirdLose.textContent = thirdTeamLose.value;
+  thirdDraw.textContent = thirdTeamDraw.value;
+  thirdGameText.textContent = parseInt(thirdTeamWin.value) +  parseInt(thirdTeamLose.value) + parseInt(thirdTeamDraw.value);
+  thirdPoint.textContent = parseInt(thirdTeamWin.value)*3.0 + parseInt(thirdTeamDraw.value);
+
+  forthTeamname.textContent = forthTeam.value;
+  forthWin.textContent = forthTeamWin.value;
+  forthLose.textContent = forthTeamLose.value;
+  forthDraw.textContent = forthTeamDraw.value;
+  forthGameText.textContent = parseInt(forthTeamWin.value) +  parseInt(forthTeamLose.value) + parseInt(forthTeamDraw.value);
+  forthPoint.textContent = parseInt(forthTeamWin.value)*3.0 + parseInt(forthTeamDraw.value);
+
+  fifthTeamname.textContent = fifthTeam.value;
+  fifthWin.textContent = fifthTeamWin.value;
+  fifthLose.textContent = fifthTeamLose.value;
+  fifthDraw.textContent = fifthTeamDraw.value;
+  fifthGameText.textContent = parseInt(fifthTeamWin.value) +  parseInt(fifthTeamLose.value) + parseInt(fifthTeamDraw.value);
+  fifthPoint.textContent = parseInt(fifthTeamWin.value)*3.0 + parseInt(fifthTeamDraw.value);
+
+  sixthTeamname.textContent = sixthTeam.value;
+  sixthWin.textContent = sixthTeamWin.value;
+  sixthLose.textContent = sixthTeamLose.value;
+  sixthDraw.textContent = sixthTeamDraw.value;
+  sixthGameText.textContent = parseInt(sixthTeamWin.value) +  parseInt(sixthTeamLose.value) + parseInt(sixthTeamDraw.value);
+  sixthPoint.textContent = parseInt(sixthTeamWin.value)*3.0 + parseInt(sixthTeamDraw.value);
+
+  seventhTeamname.textContent = seventhTeam.value;
+  seventhWin.textContent = seventhTeamWin.value;
+  seventhLose.textContent = seventhTeamLose.value;
+  seventhDraw.textContent = seventhTeamDraw.value;
+  seventhGameText.textContent = parseInt(seventhTeamWin.value) +  parseInt(seventhTeamLose.value) + parseInt(seventhTeamDraw.value);
+  seventhPoint.textContent = parseInt(seventhTeamWin.value)*3.0 + parseInt(seventhTeamDraw.value);
+
 }
 
 function downloadClick(){
