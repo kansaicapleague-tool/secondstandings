@@ -141,6 +141,8 @@ document.getElementById("now").innerHTML = now;
   let seventhDraw = document.getElementById('seventhDraw');
   let seventhTeamDraw = document.getElementById('seventhTeamDraw');
   
+  let changeButton = document.getElementById('changeButton');
+  changeButton.addEventListener('click', changeClick);
   let checkButton = document.getElementById('checkButton');
   checkButton.addEventListener('click', checkClick);
   let downloadButton = document.getElementById('downloadButton');
