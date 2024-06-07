@@ -1,3 +1,13 @@
+:root {
+    --firstTop: 23.0%;
+    --secondTop: 33.0%;
+    --thirdTop: 38.6%;
+    --forthTop: 52.5%;
+    --fifthTop: 62.3%;
+    --sixthTop: 72.3%;
+    --seventhTop: 82.3%;
+  }
+
 h1 {
     font-family: "Zen Kaku Gothic New", sans-serif;
 }
@@ -17,7 +27,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: black;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 23.4%;
+    top: var(--firstTop);
     left: 14.7%;
     margin:0;
     padding:0;
@@ -27,7 +37,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 23.4%;
+    top: var(--firstTop);
     right: 39.0%;
     margin: 0;
     padding: 0;
@@ -37,7 +47,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 23.4%;
+    top: var(--firstTop);
     right: 31.3%;
     margin: 0;
     padding: 0;
@@ -47,7 +57,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 23.4%;
+    top: var(--firstTop);
     right: 22.3%;
     margin: 0;
     padding: 0;
@@ -57,7 +67,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 23.4%;
+    top: var(--firstTop);
     right: 13.8%;
     margin: 0;
     padding: 0;
@@ -67,7 +77,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 23.4%;
+    top: var(--firstTop);
     right: 4.5%;
     margin: 0;
     padding: 0;
@@ -77,7 +87,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: black;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 33.3%;
+    top: var(--secondTop);
     left: 14.7%;
     margin:0;
     padding:0;
@@ -87,7 +97,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 33.3%;
+    top: var(--secondTop);
     right: 39.0%;
     margin: 0;
     padding: 0;
@@ -97,7 +107,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 33.3%;
+    top: var(--secondTop);
     right: 31.3%;
     margin: 0;
     padding: 0;
@@ -107,7 +117,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 33.3%;
+    top: var(--secondTop);
     right: 22.3%;
     margin: 0;
     padding: 0;
@@ -117,7 +127,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 33.3%;
+    top: var(--secondTop);
     right: 13.8%;
     margin: 0;
     padding: 0;
@@ -127,7 +137,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 33.3%;
+    top: var(--secondTop);
     right: 4.5%;
     margin: 0;
     padding: 0;
@@ -137,7 +147,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: black;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 43.2%;
+    top: var(--thirdTop);
     left: 14.7%;
     margin:0;
     padding:0;
@@ -147,7 +157,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 43.2%;
+    top: var(--thirdTop);
     right: 39.0%;
     margin: 0;
     padding: 0;
@@ -157,7 +167,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 43.2%;
+    top: var(--thirdTop);
     right: 31.3%;
     margin: 0;
     padding: 0;
@@ -167,7 +177,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 43.2%;
+    top: var(--thirdTop);
     right: 22.3%;
     margin: 0;
     padding: 0;
@@ -177,7 +187,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 43.2%;
+    top: var(--thirdTop);
     right: 13.8%;
     margin: 0;
     padding: 0;
@@ -187,7 +197,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 43.2%;
+    top: var(--thirdTop);
     right: 4.5%;
     margin: 0;
     padding: 0;
@@ -197,7 +207,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: black;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 53.1%;
+    top: var(--forthTop);
     left: 14.7%;
     margin:0;
     padding:0;
@@ -207,7 +217,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 53.1%;
+    top: var(--forthTop);
     right: 39.0%;
     margin: 0;
     padding: 0;
@@ -217,7 +227,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 53.1%;
+    top: var(--forthTop);
     right: 31.3%;
     margin: 0;
     padding: 0;
@@ -227,7 +237,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 53.1%;
+    top: var(--forthTop);
     right: 22.3%;
     margin: 0;
     padding: 0;
@@ -237,7 +247,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 53.1%;
+    top: var(--forthTop);
     right: 13.8%;
     margin: 0;
     padding: 0;
@@ -247,7 +257,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 53.1%;
+    top: var(--forthTop);
     right: 4.5%;
     margin: 0;
     padding: 0;
@@ -257,7 +267,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: black;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 62.75%;
+    top: var(--fifthTop);
     left: 14.7%;
     margin:0;
     padding:0;
@@ -267,7 +277,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 62.75%;
+    top: var(--fifthTop);
     right: 39.0%;
     margin: 0;
     padding: 0;
@@ -277,7 +287,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 62.75%;
+    top: var(--fifthTop);
     right: 31.3%;
     margin: 0;
     padding: 0;
@@ -287,7 +297,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 62.75%;
+    top: var(--fifthTop);
     right: 22.3%;
     margin: 0;
     padding: 0;
@@ -297,7 +307,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 62.75%;
+    top: var(--fifthTop);
     right: 13.8%;
     margin: 0;
     padding: 0;
@@ -307,7 +317,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 62.75%;
+    top: var(--fifthTop);
     right: 4.5%;
     margin: 0;
     padding: 0;
@@ -317,7 +327,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: black;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 72.75%;
+    top: var(--sixthTop);
     left: 14.7%;
     margin:0;
     padding:0;
@@ -327,7 +337,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 72.75%;
+    top: var(--sixthTop);
     right: 39.0%;
     margin: 0;
     padding: 0;
@@ -337,7 +347,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 72.75%;
+    top: var(--sixthTop);
     right: 31.3%;
     margin: 0;
     padding: 0;
@@ -347,7 +357,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 72.75%;
+    top: var(--sixthTop);
     right: 22.3%;
     margin: 0;
     padding: 0;
@@ -357,7 +367,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 72.75%;
+    top: var(--sixthTop);
     right: 13.8%;
     margin: 0;
     padding: 0;
@@ -367,7 +377,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 72.75%;
+    top: var(--sixthTop);
     right: 4.5%;
     margin: 0;
     padding: 0;
@@ -377,7 +387,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: black;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 82.75%;
+    top: var(--seventhTop);
     left: 14.7%;
     margin:0;
     padding:0;
@@ -387,7 +397,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 82.75%;
+    p: var(--seventhTop);
     right: 39.0%;
     margin: 0;
     padding: 0;
@@ -397,7 +407,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 82.75%;
+    p: var(--seventhTop);
     right: 31.3%;
     margin: 0;
     padding: 0;
@@ -407,7 +417,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 82.75%;
+    top: var(--seventhTop);
     right: 22.3%;
     margin: 0;
     padding: 0;
@@ -417,7 +427,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 82.75%;
+    top: var(--seventhTop);
     right: 13.8%;
     margin: 0;
     padding: 0;
@@ -427,7 +437,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    top: 82.75%;
+    top: var(--seventhTop);
     right: 4.5%;
     margin: 0;
     padding: 0;
