@@ -397,7 +397,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    p: var(--seventhTop);
+    top: var(--seventhTop);
     right: 39.0%;
     margin: 0;
     padding: 0;
@@ -407,7 +407,7 @@ input[type="number"] {
     position: absolute;/*絶対配置*/
     color: white;/*文字は黒に*/
     font-size: 4.5vw;
-    p: var(--seventhTop);
+    top: var(--seventhTop);
     right: 31.3%;
     margin: 0;
     padding: 0;
